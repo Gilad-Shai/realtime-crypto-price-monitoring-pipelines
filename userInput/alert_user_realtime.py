@@ -6,7 +6,7 @@ from pyspark.sql.window import Window
 import requests
 import psycopg2
 
-TELEGRAM_BOT_TOKEN = "7544061098:AAEufQYoo1cl1rQlsUltqO9CB3neeKy3YzU"
+TELEGRAM_BOT_TOKEN = "ENTER YOUR TOKEN"
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
 
 POSTGRES_URL = "jdbc:postgresql://postgres:5432/airflow"
