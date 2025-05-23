@@ -5,7 +5,7 @@ from kafka.errors import KafkaError
 from datetime import datetime
 import json
 
-TELEGRAM_TOKEN = "7544061098:AAEufQYoo1cl1rQlsUltqO9CB3neeKy3YzU"
+TELEGRAM_TOKEN = "ENTER YOUR TOKEN"
 KAFKA_TOPIC = "telegram_message_data"
 KAFKA_BOOTSTRAP_SERVERS = "course-kafka:9092"
 
