@@ -14,7 +14,7 @@ with DAG(
     default_args=default_args,
     schedule_interval='*/1 * * * *',
     catchup=False,
-    description='Delete old records from crypto_alerts every 1 minute',
+    description='Clean up crypto_alerts table by deleting records where is_alerted is true.',
 ) as dag:
 
     delete_old_crypto_alerts = PostgresOperator(
